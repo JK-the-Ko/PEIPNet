@@ -1,0 +1,1 @@
+python train.py --dataType places2 --gpuIds GPUIDS --batchSize BATCHSIZE --numWorkers NUMWORKERS

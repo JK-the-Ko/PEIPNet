@@ -1,0 +1,1 @@
+python test.py --dataType places2 --gpuIds 0

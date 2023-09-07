@@ -1,0 +1,1 @@
+python test.py --dataType celeba --gpuIds 0

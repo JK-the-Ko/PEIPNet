@@ -1,0 +1,1 @@
+python test.py --dataType paris-streetview --gpuIds 0

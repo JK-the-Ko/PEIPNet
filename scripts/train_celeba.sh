@@ -1,0 +1,1 @@
+python train.py --dataType celeba --gpuIds GPUIDS --batchSize BATCHSIZE --numWorkers NUMWORKERS

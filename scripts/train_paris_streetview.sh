@@ -1,0 +1,1 @@
+python train.py --dataType paris-streetview --gpuIds GPUIDS --batchSize BATCHSIZE --numWorkers NUMWORKERS
