@@ -5,9 +5,12 @@ Research on image-inpainting tasks has mainly focused on enhancing performance b
 
 ## Inpainting Performance
 - ### Paris StreetView
+  ![image](https://github.com/JK-the-Ko/PEIPNet/assets/55126482/561c45e2-897d-417f-992d-5d78c5467ba7)
 - ### CelebA
+  ![image](https://github.com/JK-the-Ko/PEIPNet/assets/55126482/0a1a28f7-fffe-4676-b696-70b3ce221b0e)
 - ### Places2
-
+  ![image](https://github.com/JK-the-Ko/PEIPNet/assets/55126482/4313357b-bfa9-49ba-921f-bcb63be0204b)
+  
 ## Prerequisites
 - Python 3.8.10
 - PyTorch>=1.12.1
