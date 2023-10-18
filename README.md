@@ -25,14 +25,47 @@ cd PEIPNet/
 ```
 - ### Install PyTorch and dependencies from http://pytorch.org
 - ### Please install dependencies by
+```
+pip install -r requirements.txt
+```
 
 ## Dataset
+- Binary Mask dataset. The following dataset should be placed in ```dataset/mask``` folder.
+- Paris StreetView dataset. The following dataset should be placed in ```dataset/paris-streetview``` folder.
+- CelebA dataset. The following dataset should be placed in ```dataset/celeba``` folder.
+- Places2 dataset. The following dataset should be placed in ```dataset/places2``` folder.
 
 ## Training
+The following script is for training **Paris StreetView dataset**. We recommend using commands written in the scripts folder.
+```
+python train.py --dataType paris-streetview --gpuIds GPUIDS --batchSize BATCHSIZE --numWorkers NUMWORKERS
+```
+The following script is for training **CelebA dataset**. We recommend using commands written in the scripts folder.
+```
+python train.py --dataType celeba --gpuIds GPUIDS --batchSize BATCHSIZE --numWorkers NUMWORKERS
+```
+The following script is for training **Places2 dataset**. We recommend using commands written in the scripts folder.
+```
+python train.py --dataType places2 --gpuIds GPUIDS --batchSize BATCHSIZE --numWorkers NUMWORKERS
+```
 
 ## Evaluation
+The following script is for evaluating **Paris StreetView dataset**. We recommend using commands written in the scripts folder.
+```
+python test.py --dataType paris-streetview --gpuIds 0
+```
+The following script is for evaluating **CelebA dataset**. We recommend using commands written in the scripts folder.
+```
+python test.py --dataType celeba --gpuIds 0
+```
+The following script is for evaluating **Places2 dataset**. We recommend using commands written in the scripts folder.
+```
+python test.py --dataType places2 --gpuIds 0
+```
+The final result will be saved automatically in ```results/dataset-name``` folder.
 
 ## Pre-Trained Models
+Pre-trained models are located in ```checkpoints/dataset-name/models``` folder.
 
 ## Citation
 If you use **PEIPNet** in your work, please consider citing us as
