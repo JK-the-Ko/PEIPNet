@@ -1,0 +1,11 @@
+Pillow>=9.2.0
+numpy>=1.23.1
+opencv-python>=4.6.0.66
+scikit-image>=0.21.0
+lpips>=0.1.4
+natsort>=8.2.0
+tqdm>=4.64.0
+torch>=1.12.1
+torchvision>=0.13.1
+pyiqa>=0.1.5
+wandb==0.14.1
